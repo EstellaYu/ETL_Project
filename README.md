@@ -9,7 +9,7 @@ __Datasets included__
 4. [CIA dataset on contries funfact](https://github.com/iancoleman/cia_world_factbook_api) (`.json`)
 
 ## TRANSFORM 
-__Data Clean-up__
+* __Data Clean-up__
 1. Countries GDP data  
    * load `.csv` files as dataframe
    * drop unnecessary columns 
@@ -32,7 +32,7 @@ __Data Clean-up__
    * flatten `.json` based on counties
    * store result as dataframe
    
-__Store dataframes above as `.csv` files__
+* __Store dataframes above as `.csv` files__
    
 ## LOAD
 
