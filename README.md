@@ -6,7 +6,8 @@ __Datasets included__
 1. [Countries GDP data](https://github.com/EstellaYu/ETL_Project/tree/master/GDP_by_country) (`.csv`)
 2. [Visa requirement for US citizen](https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens) (`.html`)
 3. [Top 100 desitination worldwide](https://brilliantmaps.com/top-100-tourist-destinations/) (`.html`)
-4. [CIA dataset on contries funfact](https://github.com/iancoleman/cia_world_factbook_api) (`.json`)
+4. [Dish by County](https://github.com/drmonkeyninja/country.json/blob/master/src/country-by-national-dish) (`.json`)
+5. [World Poluation](https://www.worldometers.info/geography/how-many-countries-are-there-in-the-world/) ('.html')
 
 ## TRANSFORM 
 * __Data Clean-up__
@@ -27,13 +28,23 @@ __Datasets included__
    * aggregate dataframe based on countries
    * combine different cities form the same country as a list --> store result in new dataframe
    
-4. CIA dataset on contries funfact
-   * load `.json` file from API requests
-   * flatten `.json` based on counties
-   * store result as dataframe
-   
+4. Population by Country
+    * scrape 'html' from website
+    * extract table as dataframe
+
+5. Yummy Food 
+    * Favorite dishese from GitHub Repository
+    * extract table as dataframe
+
+ Unified by counrty name
+
 * __Store dataframes above as `.csv` files__
    
 ## LOAD
-
+    * SQLlite create class for each table.   
+    * Defined column name and type  
+    * Load data from dataframe into SQLlite 
  
+ ## ERD graph 
+ ![ERD Graph](https://github.com/EstellaYu/ETL_Project/blob/master/resources/database_design.png)
+
