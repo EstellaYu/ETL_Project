@@ -1,5 +1,10 @@
-# ETL_Project
-ETL Project about Contries Woldwide
+# ETL Project -- Extract, Transfer, and Load
+
+
+Well, it's summer! It's the time! After a year of hardwork, let's reward yourself with a vacation at your dream place. Suppose you are planning to go for a vacation abroad -- where would you plan for your next advanture? 
+
+Here we have listed several factors that might help you make the wonderful decision! 
+1. Considering going aboard -- __`Do I need a visa before I go?`__
 
 ## EXTRACT 
 __Datasets included__
@@ -7,7 +12,7 @@ __Datasets included__
 2. [Visa requirement for US citizen](https://en.wikipedia.org/wiki/Visa_requirements_for_United_States_citizens) (`.html`)
 3. [Top 100 desitination worldwide](https://brilliantmaps.com/top-100-tourist-destinations/) (`.html`)
 4. [Dish by County](https://github.com/drmonkeyninja/country.json/blob/master/src/country-by-national-dish) (`.json`)
-5. [World Poluation](https://www.worldometers.info/geography/how-many-countries-are-there-in-the-world/) ('.html')
+5. [World Poluation](https://www.worldometers.info/geography/how-many-countries-are-there-in-the-world/) (`.html`)
 
 ## TRANSFORM 
 * __Data Clean-up__
