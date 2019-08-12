@@ -1,54 +1,101 @@
-Country,city_count,cities,tourists_mm
-Argentina,1,['Buenos Aires'],[3.2]
-Australia,2,"['Sydney', 'Melbourne']","[2.7, 1.8]"
-Austria,1,['Vienna'],[4.3]
-Azerbaijan,1,['Baku'],[1.7]
-Bahrain,1,['Manama'],[2.0]
-Belgium,1,['Brussels'],[2.3]
-Brazil,2,"['Rio de Janeiro', 'Sao Paulo']","[1.8, 1.7]"
-Bulgaria,2,"['Sofia', 'Burgas']","[4.1, 2.7]"
-Cambodia,1,['Siem Reap'],[1.9]
-Canada,2,"['Toronto', 'Vancouver']","[2.8, 1.9]"
-China,9,"['Shenzhen', 'Guangzhou', 'Shanghai', 'Beijing', 'Hangzhou', 'Zhuhai', 'Suzhou', 'Guilin', 'Nanjing']","[12.1, 7.9, 6.5, 5.0, 3.4, 2.7, 2.5, 2.0, 1.6]"
-Czech Republic,1,['Prague'],[6.5]
-Dominican Republic,1,['Punta Cana'],[2.4]
-Egypt,2,"['Cairo', 'Sharm el-Sheikh']","[3.5, 2.2]"
-France,2,"['Paris', 'Nice']","[9.8, 2.2]"
-Germany,3,"['Berlin', 'Munich', 'Frankfurt']","[3.8, 2.6, 1.7]"
-Hong Kong,1,['Hong Kong'],[23.7]
-Hungary,1,['Budapest'],[4.8]
-India,6,"['Chennai', 'Mumbai', 'Delhi', 'Agra', 'Jaipur', 'Kolkata']","[3.5, 3.0, 2.9, 2.4, 2.3, 1.6]"
-Indonesia,2,"['Denpasar', 'Jakarta']","[3.0, 2.1]"
-Ireland,1,['Dublin'],[3.1]
-Italy,4,"['Rome', 'Milan', 'Venice', 'Florence']","[8.7, 3.3, 3.2, 1.8]"
-Japan,1,['Tokyo'],[3.7]
-Jordan,1,['Amman'],[1.9]
-Kenya,1,['Nairobi'],[3.4]
-Macau,1,['Macau'],[13.4]
-Malaysia,1,['Kuala Lumpur'],[13.3]
-Mexico,2,"['Mexico City', 'Cancun']","[3.1, 2.6]"
-Morocco,1,['Marrakech'],[2.1]
-Netherlands,1,['Amsterdam'],[4.3]
-New Zealand,2,"['Auckland', 'Christchurch']","[2.0, 1.7]"
-Peru,1,['Lima'],[3.8]
-Philippines,1,['Manila'],[2.0]
-Poland,1,['Warsaw'],[3.7]
-Portugal,1,['Lisbon'],[2.2]
-Qatar,1,['Doha'],[1.9]
-Romania,1,['Bucharest'],[2.4]
-Russia,2,"['Moscow', 'St Petersburg']","[5.0, 2.7]"
-Saudi Arabia,3,"['Mecca', 'East Province', 'Riyadh']","[6.9, 2.2, 1.7]"
-Singapore,1,['Singapore'],[21.3]
-South Africa,1,['Johannesburg'],[2.6]
-South Korea,1,['Seoul'],[3.0]
-Spain,2,"['Barcelona', 'Madrid']","[5.5, 4.1]"
-Taiwan,1,['Taipei City'],[6.6]
-Thailand,4,"['Bangkok', 'Phuket', 'Pattaya', 'Chiang Mai']","[15.8, 7.2, 6.6, 2.2]"
-Tunisia,2,"['Djerba', 'Sousse']","[2.6, 1.9]"
-Turkey,4,"['Antalya', 'Istanbul', 'Mugla', 'Edirne']","[10.3, 8.8, 3.0, 2.6]"
-UAE,2,"['Dubai', 'Abu Dhabi']","[8.0, 1.9]"
-UK,1,['London'],[15.5]
-USA,8,"['New York City', 'Las Vegas', 'Miami', 'Los Angeles', 'Orlando', 'San Francisco', 'Honolulu', 'Washington D.C.']","[11.6, 6.3, 6.0, 5.0, 4.1, 3.2, 2.0, 1.7]"
-Ukraine,1,['Kiev'],[1.9]
-Vietnam,2,"['Ho Chi Minh City', 'Hanoi']","[3.9, 2.0]"
-Zimbabwe,1,['Harare'],[1.7]
+Country,city,tourists_mm
+China,Hong Kong,23.7
+Singapore,Singapore,21.3
+Thailand,Bangkok,15.8
+United Kingdom,London,15.5
+China,Macau,13.4
+Malaysia,Kuala Lumpur,13.3
+China,Shenzhen,12.1
+United States,New York City,11.6
+Turkey,Antalya,10.3
+France,Paris,9.8
+Turkey,Istanbul,8.8
+Italy,Rome,8.7
+United Arab Emirates,Dubai,8.0
+China,Guangzhou,7.9
+Thailand,Phuket,7.2
+Saudi Arabia,Mecca,6.9
+Thailand,Pattaya,6.6
+China,Taipei City,6.6
+Czech Republic,Prague,6.5
+China,Shanghai,6.5
+United States,Las Vegas,6.3
+United States,Miami,6.0
+Spain,Barcelona,5.5
+Russia,Moscow,5.0
+China,Beijing,5.0
+United States,Los Angeles,5.0
+Hungary,Budapest,4.8
+Austria,Vienna,4.3
+Netherlands,Amsterdam,4.3
+Bulgaria,Sofia,4.1
+Spain,Madrid,4.1
+United States,Orlando,4.1
+Vietnam,Ho Chi Minh City,3.9
+Peru,Lima,3.8
+Germany,Berlin,3.8
+Japan,Tokyo,3.7
+Poland,Warsaw,3.7
+India,Chennai,3.5
+Egypt,Cairo,3.5
+Kenya,Nairobi,3.4
+China,Hangzhou,3.4
+Italy,Milan,3.3
+United States,San Francisco,3.2
+Argentina,Buenos Aires,3.2
+Italy,Venice,3.2
+Mexico,Mexico City,3.1
+Ireland,Dublin,3.1
+South Korea,Seoul,3.0
+Turkey,Mugla,3.0
+India,Mumbai,3.0
+Indonesia,Denpasar,3.0
+India,Delhi,2.9
+Canada,Toronto,2.8
+China,Zhuhai,2.7
+Russia,St Petersburg,2.7
+Bulgaria,Burgas,2.7
+Australia,Sydney,2.7
+Tunisia,Djerba,2.6
+Germany,Munich,2.6
+South Africa,Johannesburg,2.6
+Mexico,Cancun,2.6
+Turkey,Edirne,2.6
+China,Suzhou,2.5
+Romania,Bucharest,2.4
+Dominican Republic,Punta Cana,2.4
+India,Agra,2.4
+India,Jaipur,2.3
+Belgium,Brussels,2.3
+France,Nice,2.2
+Thailand,Chiang Mai,2.2
+Egypt,Sharm el-Sheikh,2.2
+Portugal,Lisbon,2.2
+Saudi Arabia,East Province,2.2
+Morocco,Marrakech,2.1
+Indonesia,Jakarta,2.1
+Bahrain,Manama,2.0
+Vietnam,Hanoi,2.0
+United States,Honolulu,2.0
+Philippines,Manila,2.0
+China,Guilin,2.0
+New Zealand,Auckland,2.0
+Cambodia,Siem Reap,1.9
+Tunisia,Sousse,1.9
+Jordan,Amman,1.9
+Canada,Vancouver,1.9
+United Arab Emirates,Abu Dhabi,1.9
+Ukraine,Kiev,1.9
+Qatar,Doha,1.9
+Italy,Florence,1.8
+Brazil,Rio de Janeiro,1.8
+Australia,Melbourne,1.8
+United States,Washington D.C.,1.7
+Saudi Arabia,Riyadh,1.7
+New Zealand,Christchurch,1.7
+Germany,Frankfurt,1.7
+Azerbaijan,Baku,1.7
+Brazil,Sao Paulo,1.7
+Zimbabwe,Harare,1.7
+India,Kolkata,1.6
+China,Nanjing,1.6
