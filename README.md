@@ -42,7 +42,8 @@ __Datasets included__
    * combine different cities form the same country as a list --> store result in new dataframe
    * <img src="https://github.com/EstellaYu/ETL_Project/blob/master/resources/Image/city_list.png" width = 350>
    
-3. Population by Country
+3. __Population__ by Country  
+`Note: This file has the most complete country list`
     * scrape `html` from website
     * extract table as dataframe  
     * <img src="https://github.com/EstellaYu/ETL_Project/blob/master/resources/Image/population.png" width = 400>
@@ -60,7 +61,7 @@ __Datasets included__
     * <img src="https://github.com/EstellaYu/ETL_Project/blob/master/resources/Image/yummy.png" width = 200>
 
  * __Transform 2: Unify counrty names__
- 1. Unify country names from different descriptions
+ 1. Unify country names from different descriptions, `based on the country name listed by the `__`population`__` dataframe`
  2. Delete records with unnecessary country entries: e.g. listed region instead of country, listed continent data instead of country data, etc. 
  3. Store all dataframes above as `.csv` files
    
@@ -74,4 +75,11 @@ __Datasets included__
  
  
  ## Query Time! 
+ Say you decide to go to a country where 
+    * you `don't need a visa` to enter, and 
+    * try to explore some destineations in the `top 100` list
+    
+ Here are some cities you might be interested, and they are ordered based on tourist popularity :) Enjoy your vacation!
+ 
+ 
 
