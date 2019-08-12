@@ -75,11 +75,11 @@ __Datasets included__
  
  
  ## Query Time! 
- Say you decide to go to a country where 
-    * you `don't need a visa` to enter, and 
-    * try to explore some destineations in the `top 100` list
+ Say you decide to go to a country where  
+ * you `don't need a visa` to enter, and   
+ * try to explore some destineations in the `top 100` list
     
- Here are some cities you might be interested, and they are ordered based on tourist popularity :) Enjoy your vacation!
- 
+ Here are some cities you might be interested (transformed to pd Dataframe for easier visaulization), and they are ordered based on tourist popularity :) Enjoy your vacation!
+ ![query](https://github.com/EstellaYu/ETL_Project/blob/master/resources/Image/query.png)
  
 
